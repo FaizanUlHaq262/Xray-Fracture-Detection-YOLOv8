@@ -1,0 +1,5 @@
+python==3.10.9
+yolo
+ultralytics
+opencv-python
+Flask
