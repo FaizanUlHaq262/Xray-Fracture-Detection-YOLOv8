@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to the Xray-Fracture-Detection-YOLOv8 project, a robust fracture detection system based on the YOLOv8 model by Ultralytics. This model has been trained from scratch on a custom dataset of fractures in bone X-rays generously provided by the open-source community of Roboflow.
+Welcome to the Xray-Fracture-Detection-YOLOv8 project, a robust fracture detection system based on the YOLOv8 model by Ultralytics. This model has been finetuned on a custom dataset of fractures in bone X-rays generously provided by the open-source community of Roboflow.
 
 The repository contains a Flask web application (`app.py`) that runs locally on your machine. When executed, the web application prompts users to upload an X-ray image. Once an image is provided, the application processes it and highlights suspected fracture locations on the bone by drawing bounding boxes. Additionally, it displays the total number of fractures detected in the image.
 
